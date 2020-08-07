@@ -1,0 +1,12 @@
+【求解器】 gurobi：
+    官网 https://www.gurobi.com (部分页面要翻墙)
+    1. 注册账户
+    2. 使用学生邮箱激活academic licence，记录序列号：grbgetkey xxxxxxxxxxxxxxxxxxxx
+    3. 下载软件 https://www.gurobi.com/downloads/
+    4. 安装软件
+    5. 激活licence(要联网)：cmd直接输入grbgetkey xxxxxxxxxxxxxxxxxxxx，通过后就可以使用gurobi了
+    4. gurobi内置python控制台，也可以在python调用gurobi。这里我选择后者，使用anaconda安装
+    5. 下载离线安装包(在线总是失败，注意安装包的位数、python版本要和你的环境对应) https://link.zhihu.com/?target=https%3A//anaconda.org/Gurobi/gurobi/files
+    6. 打开anaconda promit， cd到安装包路径，输入conda install gurobi-9.0.2-py37_0.tar.bz2(我安装的版本)
+    7. 检查是否安装成功: conda list 查看已安装库
+    8. 导入包： import gurobipy
