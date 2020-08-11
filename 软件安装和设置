@@ -10,3 +10,7 @@
     6. 打开anaconda promit， cd到安装包路径，输入conda install gurobi-9.0.2-py37_0.tar.bz2(我安装的版本)
     7. 检查是否安装成功: conda list 查看已安装库
     8. 导入包： import gurobipy
+
+【图论工具库】 networkx:
+    官网 https://networkx.github.io/documentation/latest/index.html
+    安装：pip install networkx -i https://pypi.tuna.tsinghua.edu.cn/simple (用镜像下很快)
